@@ -1,0 +1,9 @@
+Language: Cpp
+BasedOnStyle: WebKit
+#函数后面大括号换行，只有在BreakBeforeBraces为Custom时生效
+BraceWrapping:
+    AfterFunction: false
+BreakBeforeBraces: Custom
+ColumnLimit: 130
+#行尾注释前加一个空格
+#SpacesBeforeTrailingComments: 2
